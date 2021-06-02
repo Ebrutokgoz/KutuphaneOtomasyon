@@ -117,13 +117,161 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CalisanEpostaTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 52</value>
+  </data>
+  <data name="CalisanEpostaTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CalisanEpostaTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CalisanEpostaTxt.Name" xml:space="preserve">
+    <value>CalisanEpostaTxt</value>
+  </data>
+  <data name="&gt;&gt;CalisanEpostaTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CalisanEpostaTxt.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;CalisanEpostaTxt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PersonelAdLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PersonelAdLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 55</value>
+  </data>
+  <data name="PersonelAdLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="PersonelAdLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PersonelAdLbl.Text" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="&gt;&gt;PersonelAdLbl.Name" xml:space="preserve">
+    <value>PersonelAdLbl</value>
+  </data>
+  <data name="&gt;&gt;PersonelAdLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PersonelAdLbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PersonelAdLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SifreLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SifreLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 112</value>
+  </data>
+  <data name="SifreLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="SifreLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SifreLbl.Text" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="&gt;&gt;SifreLbl.Name" xml:space="preserve">
+    <value>SifreLbl</value>
+  </data>
+  <data name="&gt;&gt;SifreLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SifreLbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;SifreLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SifreTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 109</value>
+  </data>
+  <data name="SifreTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 20</value>
+  </data>
+  <data name="SifreTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SifreTxt.Name" xml:space="preserve">
+    <value>SifreTxt</value>
+  </data>
+  <data name="&gt;&gt;SifreTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SifreTxt.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;SifreTxt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GirisBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 161</value>
+  </data>
+  <data name="GirisBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="GirisBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GirisBtn.Text" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="&gt;&gt;GirisBtn.Name" xml:space="preserve">
+    <value>GirisBtn</value>
+  </data>
+  <data name="&gt;&gt;GirisBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GirisBtn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GirisBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 142</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 228</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QCqRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAZKG
@@ -2637,5 +2785,100 @@
         AGgBD3oAWgQUAJ6UDFNABQAetAB3NAAelAAaACgQUDEoAU9KAQd6ACgQUAFAwoEBoGHc0AHagAPSgA7U
         AHc0AFAg9aBh6UAFAB3FACGgBaBAKBielACmgA70AA6UAxO5oADQAetAC0AHrQAdxQAUCP/Z
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>429, 527</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAApf8aAKX/1gCl/+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl
+        /+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl/+4Apf/uAKX/7gCl
+        /+4Apf/cAKX/IgCl/0wApf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf9aAKX/SACl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl/1YApf8IAKX/kACl/7AApf/0AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX/+gCl/7AApf+WAKX/DAAAAAAAAAAAAAAAAACl/94Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKX/3gCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAApf8cAKX/IACl/yAApf8gAKX/IACl/yAApf8gAKX/IACl/yAApf8gAKX/IACl/yAApf8gAKX/IACl
+        /yAApf8gAKX/IACl/yAApf8gAKX/IACl/yAApf8gAKX/IACl/yAApf8gAKX/HgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACl/4wApf+eAKX/ngCl/4AAAAAAAAAAAAAAAAAApf9SAKX/ngCl/54Apf+eAKX/GgAA
+        AAAAAAAAAKX/GACl/54Apf+eAKX/ngCl/1QAAAAAAAAAAAAAAAAApf92AKX/ngCl/54Apf+WAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAKX/3gCl//8Apf//AKX/ygAAAAAAAAAAAAAAAACl/4QApf//AKX//wCl
+        //8Apf8qAAAAAAAAAAAApf8mAKX//wCl//8Apf//AKX/hgAAAAAAAAAAAAAAAACl/7wApf//AKX//wCl
+        //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApf/eAKX//wCl//8Apf/KAAAAAAAAAAAAAAAAAKX/hACl
+        //8Apf//AKX//wCl/yoAAAAAAAAAAACl/yYApf//AKX//wCl//8Apf+GAAAAAAAAAAAAAAAAAKX/vACl
+        //8Apf//AKX/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACl/94Apf//AKX//wCl/8oAAAAAAAAAAAAA
+        AAAApf+EAKX//wCl//8Apf//AKX/LAAAAAAAAAAAAKX/JgCl//8Apf//AKX//wCl/4YAAAAAAAAAAAAA
+        AAAApf+8AKX//wCl//8Apf/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKX/3gCl//8Apf//AKX/ygAA
+        AAAAAAAAAAAAAACl/4QApf//AKX//wCl//8Apf8sAAAAAAAAAAAApf8mAKX//wCl//8Apf//AKX/iAAA
+        AAAAAAAAAAAAAACl/7wApf//AKX//wCl//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApf/eAKX//wCl
+        //8Apf/KAAAAAAAAAAAAAAAAAKX/hACl//8Apf//AKX//wCl/y4AAAAAAAAAAACl/yYApf//AKX//wCl
+        //8Apf+IAAAAAAAAAAAAAAAAAKX/vACl//8Apf//AKX/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACl
+        /94Apf//AKX//wCl/8oAAAAAAAAAAAAAAAAApf+EAKX//wCl//8Apf//AKX/LgAAAAAAAAAAAKX/JgCl
+        //8Apf//AKX//wCl/4oAAAAAAAAAAAAAAAAApf++AKX//wCl//8Apf/wAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAKX/3gCl//8Apf//AKX/ygAAAAAAAAAAAAAAAACl/4QApf//AKX//wCl//8Apf8wAAAAAAAA
+        AAAApf8mAKX//wCl//8Apf//AKX/igAAAAAAAAAAAAAAAACl/74Apf//AKX//wCl//AAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAApf/eAKX//wCl//8Apf/KAAAAAAAAAAAAAAAAAKX/hACl//8Apf//AKX//wCl
+        /zAAAAAAAAAAAACl/yYApf//AKX//wCl//8Apf+MAAAAAAAAAAAAAAAAAKX/wACl//8Apf//AKX/8AAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACl/94Apf//AKX//wCl/8oAAAAAAAAAAAAAAAAApf+EAKX//wCl
+        //8Apf//AKX/MgAAAAAAAAAAAKX/JgCl//8Apf//AKX//wCl/4wAAAAAAAAAAAAAAAAApf/AAKX//wCl
+        //8Apf/wAAAAAAAAAAAAAAAAAAAAAAAAAAAApf+IAKX/9gCl//8Apf//AKX/8gCl/34AAAAAAKX/QgCl
+        /94Apf//AKX//wCl//8Apf+8AKX/FgCl/xAApf+2AKX//wCl//8Apf//AKX/4gCl/0oAAAAAAKX/cACl
+        //AApf//AKX//wCl//oApf+SAKX/AgAAAAAAAAAAAKX/FACl//8Apf//AKX//wCl//8Apf//AKX//ACl
+        /wgApf+uAKX//wCl//8Apf//AKX//wCl//8Apf9iAKX/UACl//8Apf//AKX//wCl//8Apf//AKX/vgAA
+        AAAApf/0AKX//wCl//8Apf//AKX//wCl//8Apf8aAAAAAAAAAAAApf8UAKX/pgCl/6YApf+mAKX/pgCl
+        /6YApf+mAKX/CACl/3QApf+mAKX/pgCl/6YApf+mAKX/pgCl/0QApf86AKX/pgCl/6YApf+mAKX/pgCl
+        /6YApf+AAAAAAACl/6IApf+mAKX/pgCl/6YApf+mAKX/pgCl/xYAAAAAAAAAAACl/wwApf8YAKX/GACl
+        /xgApf8YAKX/GACl/xgApf8YAKX/GACl/xgApf8YAKX/GACl/xgApf8YAKX/GACl/xgApf8YAKX/GACl
+        /xgApf8YAKX/GACl/xgApf8YAKX/FgCl/xYApf8UAKX/FACl/xIApf8QAKX/CAAAAAAApf8iAKX/8ACl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf/0AKX/LACl
+        /zQApf/8AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX/8ACl
+        /6IApf+gAKX/7gCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf9CAAAAAACl/0IApf/eAKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        /+gApf8iAAAAAAAAAAAApf8eAKX/5ACl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf/eAKX/SgAAAAAAAAAAAAAAAACl/woApf+IAKX/+ACl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX/hAAAAAAAAAAAAAAAAAAAAAAApf92AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf/4AKX/iACl/woAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApf8sAKX/wACl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl//8Apf90AAAAAAAAAAAAAAAAAAAAAACl/2IApf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX/wACl/ywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApf8AAKX/XACl
+        /+YApf//AKX//wCl//8Apf//AKX//wCl/8YApf8EAAAAAAAAAAAApf8AAKX/ugCl//8Apf//AKX//wCl
+        //8Apf//AKX/6ACl/14Apf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAKX/EACl/5IApf/6AKX//wCl//8Apf//AKX//wCl/7QApf9CAKX/QgCl/6wApf//AKX//wCl
+        //8Apf//AKX//ACl/5YApf8SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACl/zIApf/IAKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl/8oApf82AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACl/wIApf9kAKX/6gCl//8Apf//AKX//wCl
+        //8Apf//AKX//wCl/+wApf9oAKX/AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApf8SAKX/mACl
+        //wApf//AKX//wCl//wApf+aAKX/FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAKX/NACl/8AApf/CAKX/NgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAgAAAAYAAAAGAAAABgAAAAeAAAAfgAAAH/////+Hjx8fhw8OH4cPDh+HD
+        w4fhw8OH4cPDh+HDw4fhw8OH4cPDh+HDw4fBwYODwIGBA8DBgQP/////gAAAAYAAAAHAA8AD4APgB/gH
+        4B/+A8B//wGA///AA///8A////gf///+f/8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Personel Giriş</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GirisEkrani</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

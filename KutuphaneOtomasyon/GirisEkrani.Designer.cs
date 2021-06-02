@@ -1,7 +1,7 @@
 ﻿
 namespace KutuphaneOtomasyon
 {
-    partial class SignInWindow
+    partial class GirisEkrani
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@ namespace KutuphaneOtomasyon
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignInWindow));
-            this.PersonelAdTxt = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GirisEkrani));
+            this.CalisanEpostaTxt = new System.Windows.Forms.TextBox();
             this.PersonelAdLbl = new System.Windows.Forms.Label();
             this.SifreLbl = new System.Windows.Forms.Label();
             this.SifreTxt = new System.Windows.Forms.TextBox();
@@ -39,50 +39,36 @@ namespace KutuphaneOtomasyon
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // PersonelAdTxt
+            // CalisanEpostaTxt
             // 
-            this.PersonelAdTxt.Location = new System.Drawing.Point(111, 52);
-            this.PersonelAdTxt.Name = "PersonelAdTxt";
-            this.PersonelAdTxt.Size = new System.Drawing.Size(171, 20);
-            this.PersonelAdTxt.TabIndex = 0;
+            resources.ApplyResources(this.CalisanEpostaTxt, "CalisanEpostaTxt");
+            this.CalisanEpostaTxt.Name = "CalisanEpostaTxt";
+            this.CalisanEpostaTxt.TextChanged += new System.EventHandler(this.PersonelAdTxt_TextChanged);
             // 
             // PersonelAdLbl
             // 
-            this.PersonelAdLbl.AutoSize = true;
+            resources.ApplyResources(this.PersonelAdLbl, "PersonelAdLbl");
             this.PersonelAdLbl.BackColor = System.Drawing.Color.Transparent;
             this.PersonelAdLbl.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.PersonelAdLbl.Location = new System.Drawing.Point(21, 55);
             this.PersonelAdLbl.Name = "PersonelAdLbl";
-            this.PersonelAdLbl.Size = new System.Drawing.Size(66, 13);
-            this.PersonelAdLbl.TabIndex = 1;
-            this.PersonelAdLbl.Text = "Personel Adı";
             // 
             // SifreLbl
             // 
-            this.SifreLbl.AutoSize = true;
+            resources.ApplyResources(this.SifreLbl, "SifreLbl");
             this.SifreLbl.BackColor = System.Drawing.Color.Transparent;
             this.SifreLbl.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.SifreLbl.Location = new System.Drawing.Point(36, 112);
             this.SifreLbl.Name = "SifreLbl";
-            this.SifreLbl.Size = new System.Drawing.Size(28, 13);
-            this.SifreLbl.TabIndex = 2;
-            this.SifreLbl.Text = "Şifre";
             // 
             // SifreTxt
             // 
-            this.SifreTxt.Location = new System.Drawing.Point(111, 109);
+            resources.ApplyResources(this.SifreTxt, "SifreTxt");
             this.SifreTxt.Name = "SifreTxt";
-            this.SifreTxt.Size = new System.Drawing.Size(171, 20);
-            this.SifreTxt.TabIndex = 3;
             // 
             // GirisBtn
             // 
             this.GirisBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.GirisBtn.Location = new System.Drawing.Point(69, 161);
+            resources.ApplyResources(this.GirisBtn, "GirisBtn");
             this.GirisBtn.Name = "GirisBtn";
-            this.GirisBtn.Size = new System.Drawing.Size(183, 37);
-            this.GirisBtn.TabIndex = 4;
-            this.GirisBtn.Text = "Giriş";
             this.GirisBtn.UseVisualStyleBackColor = false;
             this.GirisBtn.Click += new System.EventHandler(this.GirisBtn_Click);
             // 
@@ -92,27 +78,21 @@ namespace KutuphaneOtomasyon
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.PersonelAdLbl);
             this.panel1.Controls.Add(this.GirisBtn);
-            this.panel1.Controls.Add(this.PersonelAdTxt);
+            this.panel1.Controls.Add(this.CalisanEpostaTxt);
             this.panel1.Controls.Add(this.SifreTxt);
             this.panel1.Controls.Add(this.SifreLbl);
-            this.panel1.Location = new System.Drawing.Point(56, 142);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(317, 228);
-            this.panel1.TabIndex = 5;
             // 
-            // SignInWindow
+            // GirisEkrani
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(429, 527);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "SignInWindow";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Personel Giriş";
+            this.Name = "GirisEkrani";
+            this.Load += new System.EventHandler(this.GirisEkrani_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -121,7 +101,7 @@ namespace KutuphaneOtomasyon
 
         #endregion
 
-        private System.Windows.Forms.TextBox PersonelAdTxt;
+        private System.Windows.Forms.TextBox CalisanEpostaTxt;
         private System.Windows.Forms.Label PersonelAdLbl;
         private System.Windows.Forms.Label SifreLbl;
         private System.Windows.Forms.TextBox SifreTxt;
